@@ -10,7 +10,7 @@ const {
     getPublishedJobs,
     getUsers,
     deleteUserAdmin
- } = require('../controllers/userController');
+ } = require('../controllers/userControllers');
 
 const { isAuthenticatedUser, authorizeRoles } = require('../middlewares/auth');
 
